@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="TabCustomu" label="XML定制">
+        <group id="MyGroup" label="My Group">
+          <button id="button1" label="我的按钮" size="normal" imageMso="AnimationAudio" onAction="callback"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
